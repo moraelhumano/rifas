@@ -1,0 +1,252 @@
+body{
+	overflow: hidden;
+	background-color:#f1f1f1;
+}
+.header_main{
+	height: 70px;
+	width: 100%;
+	background-color: #383055;
+}
+
+.background_white{
+	background-color: #fff;
+}
+
+.col{
+	height: 100vh;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.row{
+	margin-bottom: 0px !important;
+	margin-right: 0px !important;
+}
+
+.image_main_computer{
+	width: 100%;
+	padding-top: 30px;
+	height: 210px;
+}
+
+.text_content_init{
+   width: 81%;
+   margin: 20px auto;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.img_size{
+	width: 40px;
+}
+
+.icon_groups {
+	float: right;
+	padding-right: 20px;
+
+}
+
+.icon_groups img{
+	margin-left: 10px;
+
+}
+
+.tv_content{
+	background-color: #fff;
+	height: 250px;
+	width: 100%;
+	display: -webkit-inline-box;
+}
+
+
+
+
+.tv_padding_top{
+	margin-top: 50px;
+	background-color: #fff;
+	height: 300px;
+	width: 100%;
+	float: right;
+}
+
+.tv_size{
+	width: 175px;
+    margin: 43px 22px;
+}
+
+.description_premio{
+	height: 200px;
+	width: 300px;
+	margin-top:30px;
+	margin-right: 150px;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.margin_p{
+    margin: 0px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button_buy_ticket{
+	background-color: #e99453 !important;
+    top: 150px;
+    padding-top: 10px !important;
+    height: 55px !important;
+    right: 132px !important;
+}
+
+.button_buy_modal{
+	background-color: #e99453 !important;
+    color: #fff !important;
+    width: 200px !important;
+    border: hidden;
+    height: 35px !important;
+    border-radius: 3px;
+    margin-left: 169px;
+   
+}
+
+.ticket_buy_modal{
+	background-color: #e99453 !important;
+    color: #fff !important;
+    width: 40% !important;
+    border: hidden;
+    height: 35px !important;
+    border-radius: 3px;
+    margin-left: 169px;
+}
+
+input[type = number], input[type = text]{
+	margin-bottom: 0px !important;
+	box-shadow:none !important;
+
+}
+
+.inputfield{
+  position: relative;
+  border: 1px solid #e99453 !important;
+  border-radius: 3px !important;
+  width: 50px !important;
+  margin-bottom: 0px !important;
+  background: rgba(256, 256, 256, 0.2);
+  height: 30px !important;
+  padding-left: 15px !important;  
+  color: black !important; 
+}
+
+
+
+ .inputfield: focus{
+   box-shadow: 0 0px 0 0 #fff;
+ }
+
+
+
+.row .col.s6{
+	width: 50% !important;
+}
+
+.p_comprar_ticket{
+	display: inline-block !important;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.p_font_small{
+	font-size: 12px !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.p_comprar_tickets_orange{
+	color:  #e99453;
+}
+
+.modal_ticket{
+	width: 40% !important;
+	border-radius: 3px !important;
+	height: 534px !important;
+}
+
+.modal_input_padding{
+	padding-left: 100px !important;
+	padding-right: 100px !important;
+}
+
+.modal .modal-footer{
+	 margin-bottom: 30px !important;
+}
+
+.title_modal{
+	font-size: 16px;
+	font-family: 'Open-Sans', sans-serif;
+	color: #a4a4a4;
+    margin-top: 33px !important;
+    margin-bottom: 0px !important;
+    height: 27px !important;
+
+}
+
+.input_form{
+	margin-bottom: 0px !important;
+}
+
+.ticket_image{
+	width: 40px;
+}
+
+.title_ticket{
+	font-size: 30px;
+	color: #e99453;
+	text-align: center !important;
+	display: inline-block;
+	vertical-align: top !important;
+    margin-top: 0px;
+}
+
+.comprador_name{
+    font-size: 20px;
+    font-weight: bold;
+	color: #e99453;
+	text-align: left !important;
+	display: inline-block;
+	vertical-align: top !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+p{
+	margin-bottom: 10px !important;
+	margin-top: 0px !important;
+}
+
+.modal_data_show{
+	padding-right: 0px !important;
+	padding-left: 35px !important;
+}
+
+.head_modal{
+	text-align: center;
+}
+
+.tv_modal{
+	width: 175px;
+	margin: 0px 0px;
+	vertical-align: bottom;
+	margin-right: 15px;
+}
+
+.modal{
+	overflow: hidden !important;
+}
+
+.display_inline{
+	display: inline-block !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
